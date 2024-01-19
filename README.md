@@ -1,11 +1,12 @@
 # VSCodium - Windows 7, 8 & 8.1 backport
+## pls ignore the fact that i used the same screenshots from my VSCode fork
 
 This isn't really a fancy readme but I don't give a shit,
 also shoutout to cozmo (https://www.github.com/CozmoDev). Also if you hate Alex313031, this is a great replacement for his VSCodium fork
 
-### Anyways, this port uses electron 22 as a base, if you wanna do this yourself, here are the 2 only methods u can port VSCode (or any electron app in general to windows 7):
+### Anyways, this port uses electron 22 as a base, if you wanna do this yourself, here are the 2 only methods u can port VSCodium (or any electron app in general to windows 7):
 
-- completely compile this yourself (which is a pain in the ass from personal experience BUT it is possible and it will work, please reffer to actual vscode documentation tho)
+- completely compile this yourself (which is a pain in the ass from personal experience BUT it is possible and it will work, please reffer to actual vscodium documentation tho)
 
 - or you can just compile the default electron 22 app, then copy everything except for the "resources" (like in the image bellow)
 
@@ -13,7 +14,7 @@ also shoutout to cozmo (https://www.github.com/CozmoDev). Also if you hate Alex3
   <img alt="a" src="https://media.discordapp.net/attachments/721626533290180730/1198017044470321253/image.png">
 </p>
 
-now that you copied the electron files that WILL work on windows 7, copy them over to the directory of your desired VSCode (which should look something like this)
+now that you copied the electron files that WILL work on windows 7, copy them over to the directory of your desired VSCodium (which should look something like this)
 <p align="center">
   <img alt="a" src="https://media.discordapp.net/attachments/721626533290180730/1198017573514657852/image.png">
 </p>
