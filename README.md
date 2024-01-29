@@ -1,37 +1,37 @@
 # VSCodium - Windows 7, 8 & 8.1 backport
-## pls ignore the fact that i used the same screenshots from my VSCode fork
+This isn't really a fancy readme but I don't give a shit
 
-This isn't really a fancy readme but I don't give a shit,
-also shoutout to cozmo (https://www.github.com/CozmoDev). Also if you hate Alex313031, this is a great replacement for his VSCodium fork
+## How to remake this yourself:
 
-### Anyways, this port uses electron 22 as a base, if you wanna do this yourself, here are the 2 only methods u can port VSCodium (or any electron app in general to windows 7):
+### 1. Compile VSCodium or get it from the official site
+Doesn't matter really, all that matters is you get VSCodium from somewhere
 
-- completely compile this yourself (which is a pain in the ass from personal experience BUT it is possible and it will work, please reffer to actual vscodium documentation tho)
+### 2. Get supermium-electron (shoutout to win32)
+Supermium-electron is backported electron 28, you can find it here >>> https://github.com/win32ss/supermium-electron/releases/tag/v28-testing
 
-- or you can just compile the default electron 22 app, then copy everything except for the "resources" (like in the image bellow)
+## Now that you have everything you need, you can porting!
+
+### 3. Now, do what I did in that screenshot
+
 
 <p align="center">
-  <img alt="a" src="https://media.discordapp.net/attachments/721626533290180730/1198017044470321253/image.png">
+  <img alt="a" src="https://media.discordapp.net/attachments/721626533290180730/1198310033952350339/image.png">
 </p>
 
-now that you copied the electron files that WILL work on windows 7, copy them over to the directory of your desired VSCodium (which should look something like this)
+### 4. Replacing @vscode folder
+
+in VSCodium version 1.85.2, the @vscode folder inside of node_modules.asar.unpacked just decided to refuse working with windows 7 & 8 for some reason, to revert this you will have to download VSCodium 1.85.1 and use its @vscode folder OR you can just get it off this github page (i uploaded it here for convenience). Just follow what I do in the image:
+
 <p align="center">
-  <img alt="a" src="https://media.discordapp.net/attachments/721626533290180730/1198017573514657852/image.png">
+  <img alt="a" src="https://cdn.discordapp.com/attachments/721626533290180730/1198316041336533012/image.png">
 </p>
 
-after that, delete Code.exe (cuz it wont work) and rename electron.exe to "Code.exe" (its the replacement executable pretty much)
+### 5. That's it!
+
+You're done, this is what the finished product should look like
 
 <p align="center">
-  <img alt="a" src="https://media.discordapp.net/attachments/721626533290180730/1198021416164003851/image.png">
-</p>
-
-
-and boom, youre done! just make sure you get the right electron build, ill update this readme if this method ever stops working for the people that cant code to be able to reproduce, or u can be an actual programmer and just manually compile with electron28 and then add supermium-electron (quick shoutout to win32)
-
-here is a screenshot of the finished product
-
-<p align="center">
-  <img alt="a" src="https://media.discordapp.net/attachments/721626533290180730/1198021932960989346/image.png">
+  <img alt="a" src="https://media.discordapp.net/attachments/1201635283519680582/1201643921940422666/image.png">
 </p>
 
 if this documentation is too shitty for you to understand just dm me on discord and ill help you (discord tag: aiek.)
