@@ -22,5 +22,4 @@ Supermium-electron is backported electron 28, you can find it here >>> https://g
 
 You're done, this is what the finished product should look like
 
-<p align="center">
-  <img alt="a" src="(https://github.com/AiekDev/vscodium-win7/assets/145149166/205ffbb0-6732-4f8d-8c0a-8bb0538f0a7d)">
+![image](https://github.com/AiekDev/vscodium-win7/assets/145149166/205ffbb0-6732-4f8d-8c0a-8bb0538f0a7d)
