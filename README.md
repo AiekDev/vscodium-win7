@@ -1,5 +1,6 @@
 # VSCodium - Windows 7, 8 & 8.1 backport
 This isn't really a fancy readme but I don't give a shit
+This is just a fancy readme on a guide on how to backport VSCodium with maybe a few up to date backported builds done by me, and nothing more.
 
 Join up https://discord.gg/MnfHDJMqX5
 
